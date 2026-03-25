@@ -1,0 +1,134 @@
+/* --- Dropzone (Your code) --- */
+.dropzone {
+    border: 3px dashed #ccc; 
+    padding: 40px; 
+    text-align: center; 
+    border-radius: 8px; 
+    font-family: sans-serif; 
+    color: white;
+}
+
+.dropzone label {
+    background: #007bff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* --- Main Container --- */
+.ingestion-container {
+    font-family: sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    color: white;
+}
+
+/* --- Top Controls --- */
+.controls-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.search-input {
+    padding: 8px 12px;
+    width: 250px;
+    border-radius: 4px;
+    border: 1px solid #555;
+    background-color: #222;
+    color: white;
+    font-size: 14px;
+}
+
+.search-input::placeholder {
+    color: #888;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+/* --- Universal Button Styles --- */
+.btn {
+    padding: 8px 15px;
+    border-radius: 4px;
+    border: none;
+    font-size: 14px; /* Fixes the font size discrepancies */
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.2s;
+}
+
+.btn:disabled {
+    background-color: #333 !important;
+    color: #777;
+    cursor: not-allowed;
+}
+
+.btn-danger { background-color: #dc3545; }
+.btn-danger:hover:not(:disabled) { background-color: #c82333; }
+
+.btn-success { background-color: #28a745; }
+.btn-success:hover { background-color: #218838; }
+
+.btn-primary { background-color: #007bff; }
+.btn-primary:hover:not(:disabled) { background-color: #0069d9; }
+
+/* --- Table Styles (Dark Mode) --- */
+.file-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #444;
+    background-color: #1a1a1b; /* Slightly lighter than page bg to pop out */
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.file-table th {
+    background-color: #2a2a2b;
+    text-align: left;
+    padding: 12px;
+    border-bottom: 2px solid #555;
+    color: #e8eaed;
+    font-weight: 600;
+}
+
+.file-table td {
+    padding: 12px;
+    border-bottom: 1px solid #444;
+    color: #ccc;
+}
+
+.file-table th:first-child,
+.file-table td:first-child {
+    text-align: center;
+    width: 40px;
+}
+
+.file-table tr:last-child td {
+    border-bottom: none;
+}
+
+.file-table tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.05); /* Subtle highlight on hover */
+}
+
+.empty-state {
+    padding: 30px;
+    text-align: center;
+    color: #888;
+    font-style: italic;
+}
+
+/* --- Bottom Actions --- */
+.actions-footer {
+    margin-top: 20px;
+    text-align: right;
+}

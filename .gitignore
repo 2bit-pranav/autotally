@@ -1,0 +1,84 @@
+# =========================
+# GENERAL
+# =========================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+.vscode/
+.idea/
+
+# =========================
+# ENV FILES
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# NODE / REACT (client)
+# =========================
+client/node_modules/
+client/build/
+client/dist/
+
+# logs
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+client/pnpm-debug.log*
+
+# env files
+client/.env*
+!client/.env.example
+
+# =========================
+# JAVA / SPRING BOOT (server)
+# =========================
+
+# compiled classes
+server/target/
+server/build/
+server/out/
+
+# logs
+server/*.log
+
+# IDE files
+server/.classpath
+server/.project
+server/.settings/
+
+# IntelliJ (yes, it creates emotional damage too)
+server/.idea/
+*.iml
+
+# Maven wrapper (keep jar, ignore cache)
+server/.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+server/.gradle/
+server/build/
+!server/gradle/wrapper/gradle-wrapper.jar
+
+# =========================
+# DATABASE FILES
+# =========================
+*.sqlite3
+*.db
+*.h2.db
+
+# =========================
+# UPLOADS / GENERATED FILES
+# =========================
+uploads/
+media/
+
+# =========================
+# MISC
+# =========================
+*.zip
+*.tar
+*.gz
+*.rar
