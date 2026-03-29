@@ -1,0 +1,46 @@
+[
+  {
+    "PARTY NAME": "Freedom Tree Retail LLP",
+    "PARTY GSTIN": "27AAFFF9922P1ZQ",
+    "TAX INVOICE NO.": "1151",
+    "INVOICE DATE": "16/04/2025",
+    "TAXABLE VALUE": "102500",
+    "CGST": "9225",
+    "SGST": "9225",
+    "IGST": "",
+    "INVOICE VALUE": "120950"
+  },
+  {
+    "PARTY NAME": "Masion De meublus",
+    "PARTY GSTIN": "27ABCFM1683L1ZY",
+    "TAX INVOICE NO.": "1153",
+    "INVOICE DATE": "22/04/2025",
+    "TAXABLE VALUE": "450000",
+    "CGST": "40500",
+    "SGST": "40500",
+    "IGST": "",
+    "INVOICE VALUE": "531000"
+  },
+  {
+    "PARTY NAME": "SAMSON MARITIME LIMITED.",
+    "PARTY GSTIN": "27AAACS9177M1ZN",
+    "TAX INVOICE NO.": "DE-002/25-26",
+    "INVOICE DATE": "10/4/2025",
+    "TAXABLE VALUE": "63000.00",
+    "CGST": "5670.00",
+    "SGST": "5670.00",
+    "IGST": "NIL",
+    "INVOICE VALUE": "74340.00"
+  },
+  {
+    "PARTY NAME": "Global Electrical And Marine Services",
+    "PARTY GSTIN": "27AHVPD8752A1Z6",
+    "TAX INVOICE NO.": "DE-006/25-26",
+    "INVOICE DATE": "10/4/2025",
+    "TAXABLE VALUE": "15000.00",
+    "CGST": "1350.00",
+    "SGST": "1350.00",
+    "IGST": "",
+    "INVOICE VALUE": "17700.00"
+  }
+]

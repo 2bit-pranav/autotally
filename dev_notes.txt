@@ -1,0 +1,21 @@
+# Endpoints /api/v1
+GET /health-check -> String
+GET /ping-tally -> ApiResponse<String>
+POST /analyze -> ApiResponse<String>
+POST /get-ledgers -> ApiResponse<HashMap<String, HashMap<String, String>>>
+POST /create-vouchers -> ApiResponse<String>
+
+# Autotally: revised workflow (F = frontend, B = backend)
+1. [F] user selects x amount of files
+2. [F] edit and confirm file selection, Analyze
+3. [B] list of files goes to /analyze and data is recvd (InvoiceData)
+4. [F] extract ledgers from the data and store it (ExLedgers)
+5. [B] call /get-ledgers to retrieve actual ledgers (ActLedgers)
+6. [F] map ExLedgers with ActLedgers
+7. [F] mark missing ledgers as missing (rejected, generate CSV for future use)
+8. [B] send filtered InvoiceData to /create-vouchers
+9. [F] recv confirmation msg about created vouchers
+
+# Important frontend considerations
+- tally client-server configuration to be done before use (a banner maybe?)
+- tally connection to be handled at each of these steps as it is a prerequisite for ping, ledger and voucher endpoints

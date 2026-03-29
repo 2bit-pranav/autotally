@@ -16,8 +16,10 @@
     "@mui/icons-material": "^7.3.9",
     "@mui/material": "^7.3.9",
     "@mui/x-data-grid": "^8.27.5",
+    "axios": "^1.14.0",
     "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "react-dom": "^19.2.4",
+    "scribe.js-ocr": "^0.10.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",
